@@ -38,6 +38,7 @@ router.post('/', async (req, res) => {
         }
 
         const thought = await Thought.create({ text, username: user.username });
+        await user.updateOne({ $push: { thoughts: thought._id } });
         res.json(thought);
     } catch (err) {
         if (err instanceof MongooseError.ValidationError) {

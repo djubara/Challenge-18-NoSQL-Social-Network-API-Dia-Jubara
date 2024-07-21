@@ -40,20 +40,17 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
   > ## Screenshots
 
-![image](./)
+![image](./Assets/social-network-API.png)
 
-> ## Demo Gif
+> ## Demo Video Link
 
-![image](./)
-
-> ## Render Logs
-
-![image](./Assets/render-logs.png)
+[Video Link](https://drive.google.com/file/d/1Piz6TT-xrwKgmpKSYFiZnoc6I3xSN-mZ/view?usp=sharing)
 
   > ## Installation
 
   1. Clone Repository. GitHub repo contains application code
-  2. Run the application using Insomnia or Postman
+  2. Run `npm i`
+  3. Run the application using Insomnia or Postman
 
   > ## Usage
 

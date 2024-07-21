@@ -1,5 +1,4 @@
 const { Schema, model, get } = require('mongoose');
-// Schema to create a course model
 const reactionSchema = new Schema(
     {
         body: {
@@ -23,7 +22,6 @@ const reactionSchema = new Schema(
 
     }
 );
-// Schema to create a course model
 const thoughtSchema = new Schema(
     {
         text: {
